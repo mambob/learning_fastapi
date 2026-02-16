@@ -10,10 +10,11 @@
             "request": "launch",
             "module": "uvicorn",
             "args": [
-                "main:app",
+                "src.learning_fastapi.main:app",
                 "--reload"
             ],
-            "jinja": true
+            "jinja": true,
+            "cwd": "${workspaceFolder}"
         },
         {
             "name": "Python Debugger: Current File",
