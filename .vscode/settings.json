@@ -1,0 +1,7 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "explorer.excludeGitIgnore": true,
+    "files.exclude": {
+        "**/.vscode": true
+    }
+}
